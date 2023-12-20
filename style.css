@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: linear-gradient(135deg, #1f0528, #1c0424); ;
+    background: linear-gradient(135deg, #121212, black); ;
 }
 
 body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar::after {
