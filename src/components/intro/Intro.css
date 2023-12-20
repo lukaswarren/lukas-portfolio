@@ -68,3 +68,25 @@
     margin-right: 0.3rem; /* Adjusted margin */
     background: none; /* Reset background */
 }
+
+@media screen and (max-width:768px) {
+
+    #intro {
+        /* Adjust styles for smaller screens */
+        padding: 1rem; /* Example adjustment for padding */
+        font-size: 1.5rem; /* Example adjustment for font size */
+        /* Add other necessary adjustments */
+    }
+
+    .profilePic {
+        height: 30vh; /* Adjusted height for the profile picture on smaller screens */
+        /* Add other necessary adjustments */
+    }
+
+    .introContent {
+        /* Adjust styles for content on smaller screens */
+        font-size: 1.2rem; /* Example adjustment for font size */
+        /* Add other necessary adjustments */
+    }
+
+}

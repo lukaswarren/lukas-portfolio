@@ -26,9 +26,9 @@
 }
 
 .menuListItem:hover{
-    color:rgb(175, 15, 175);
+    color: #bdae60;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid rgb(111, 6, 111);;
+    border-bottom: 3px solid #bdae60;
 }
 
 .menuBtn {
