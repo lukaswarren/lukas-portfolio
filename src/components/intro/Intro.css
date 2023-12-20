@@ -1,17 +1,70 @@
+
+
 #intro {
-    height: 100vh;
+    display: flex; /* Use flexbox to control positioning */
+    align-items: center; /* Vertically align content */
+    justify-content: space-between; /* Place content at the ends */
+    height: 80vh;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    /* box-shadow: 0 0 15px #838174; /* Adding a subtle shadow 
+    border: 1px groove #bdae60;  */
+    
 }
 
 .profilePic {
-    position: absolute;
-    top: -4rem;
-    right: 0;
-    z-index: -1;
     object-fit: cover;
-    height: 40vh;
+    height: 50vh;
+    width: auto; /* Adding width to ensure responsiveness */
+    border-radius: 15px;
+    margin-right: 8.5rem;
+    box-shadow: 0 0 10px #838174; /* Adding a subtle shadow */
+    border: 2.5px solid #bdae60; 
+}
+
+.introContent {
+    flex: 1; /* Allow content to take available space */
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: lightgray;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: #bdae60;
+
+}
+.introPara {
+    font-size:large;
+    font-weight: 100;
+}
+
+.hireBtn {
+    background: lightgray;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.8rem; /* Adjusted padding for smaller size */
+    border-radius: 1rem; /* Smaller border radius */
+    margin: 0.5rem 0.2rem 0.5rem 0; /* Adjusted margins (top, right, bottom, left) */
+    cursor: pointer;
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.hireBtnImg {
+    object-fit: contain;
+    height: 0.6rem; /* Adjusted height for the image */
+    width: 0.6rem; /* Adjusted width for the image */
+    margin-right: 0.3rem; /* Adjusted margin */
+    background: none; /* Reset background */
 }

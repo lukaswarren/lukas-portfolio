@@ -7,10 +7,10 @@ export const Intro = () => {
   return (
     <section id="intro">
         <div className="introContent">
-            <span className='hello'>Hello</span>
-            <span className='introText'> I'm </span><span className="introName"> Luke Warren </span><br/> <span>A Backend Software Engineer</span>
+            <span className='hello'>Hello</span><br/>
+            <span className='introText'> I'm<span className="introName"> Luke Warren </span><br/> <span>A Backend Software Engineer</span></span>
             <p className="introPara">I am software engineer with 7+ years experience in Backend Development</p>
-            <Link><button className='btn'>Hire Me</button></Link>
+            <Link><button className='hireBtn'>Hire Me</button></Link>
         </div>
         <img src={profile} alt='Profile' className="profilePic"/>
     </section>

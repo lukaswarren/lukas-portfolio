@@ -3,12 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: transparent;
+    background: linear-gradient(135deg, #1f0528, #1c0424); ;
 }
 
 body{
-    background: rgb(30, 30, 30);
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+.navbar::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #bdae60; /* Adjust the border style */
+    position: absolute;
+    top: 100%; /* Position it just after the navbar */
+    left: 0;
+    z-index: 2; /* Ensure it appears above the intro section */
 }

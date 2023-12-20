@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lukaswarren.github.io/lukas-portfolio/",
-  "name": "lukas-portfolio",
+  "homepage": ".",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
