@@ -17,10 +17,10 @@
 
 .profilePic {
     object-fit: cover;
-    height: 50vh;
+    height: 60vh;
     width: auto; /* Adding width to ensure responsiveness */
     border-radius: 15px;
-    margin-right: 8.5rem;
+    margin-right: 6rem;
     box-shadow: 0 0 10px #838174; /* Adding a subtle shadow */
     border: 2.5px solid #bdae60; 
 }
