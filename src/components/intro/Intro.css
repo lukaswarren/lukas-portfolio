@@ -10,6 +10,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    background: transparent;
     /* box-shadow: 0 0 15px #838174; /* Adding a subtle shadow 
     border: 1px groove #bdae60;  */
     
@@ -17,7 +18,7 @@
 
 .profilePic {
     object-fit: cover;
-    height: 60vh;
+    height: 50vh;
     width: auto; /* Adding width to ensure responsiveness */
     border-radius: 15px;
     margin-right: 6rem;
@@ -31,20 +32,31 @@
     font-size: 2rem;
     font-weight: 500;
     color: lightgray;
+    background: transparent;
 }
 
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
+    background: transparent;
 }
 
 .introName {
     color: #bdae60;
+    background: transparent;
 
 }
 .introPara {
     font-size:large;
     font-weight: 100;
+    background: transparent;
+}
+
+.introText {
+    background: transparent;
+}
+.title{
+    background: transparent;
 }
 
 .hireBtn {
@@ -69,7 +81,7 @@
     background: none; /* Reset background */
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
 
     #intro {
         /* Adjust styles for smaller screens */

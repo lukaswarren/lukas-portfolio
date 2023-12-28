@@ -10,19 +10,25 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background: transparent;
     
+}
+.menu{
+    background: transparent;
 }
 
 .logo {
     object-fit:contain;
     height: 6rem;
     width: 7rem;
+    background: transparent;
 
 }
 .menuListItem{
     margin: 1rem;
     cursor: pointer;
     color: lightgray;
+    background: transparent;
 }
 
 .menuListItem:hover{
@@ -50,4 +56,27 @@
     width: 1rem;
     margin: 1rem;
     background: none;
+}
+
+@media (max-width: 425px) {
+    .navbar {
+        padding: 1rem; /* Adjust overall padding for smaller screens */
+    }
+
+    .logo {
+        /* Adjust logo styles for smaller screens */
+        width: auto; /* Allow the logo to shrink as necessary */
+        max-width: 100%; /* Ensure the logo doesn't overflow */
+        margin-right: auto; /* Push the logo to the left */
+    }
+
+    .menu {
+        /* Adjust menu styles for smaller screens */
+        margin-left: auto; /* Push the menu links to the right */
+    }
+
+    /* Optionally, adjust styles for menu links */
+    .menuListItem {
+        margin: 0 0.5rem; /* Add or reduce spacing between menu items */
+    }
 }
