@@ -1,8 +1,8 @@
 import React from 'react';
-import './About.css';
+import './Skills.css';
 import SkillsLogo from '../../assets/skillslogo.png';
 
-const About = () => {
+const Skills = () => {
   return (
     <section id ='skills'>
       <span className='skillTitle'>Skills</span>
@@ -34,4 +34,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills
