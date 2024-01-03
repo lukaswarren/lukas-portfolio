@@ -1,0 +1,44 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    
+}
+
+ .projectTitle {
+    font-size: 3rem;
+    color: lightgray;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    background: transparent;
+}
+.projectDesc {
+    color: lightgray;
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    background: transparent;
+}
+.rows {
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+}
+
+.project {
+    margin: 1rem;
+    padding: 1.5 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #838174; 
+    border: 2.5px solid #bdae60; 
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg, #252525, black);
+}   

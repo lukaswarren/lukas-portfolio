@@ -59,6 +59,11 @@
     background: transparent;
 }
 
+.introBtns {
+    display: flex;
+    flex-direction: row;
+}
+
 .hireBtn {
     background: lightgray;
     color: black;
