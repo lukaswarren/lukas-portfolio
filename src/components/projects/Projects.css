@@ -4,9 +4,11 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    width: 100vw;
-    max-width: 65rem;
-    
+    width: 85rem;
+    margin: 1.8rem auto;
+    background: transparent;
+    position: relative;
+
 }
 
  .projectTitle {
@@ -16,6 +18,7 @@
     padding-top: 3rem;
     margin-bottom: 1.5rem;
     background: transparent;
+    position: relative;
 }
 .projectDesc {
     color: lightgray;
@@ -24,21 +27,85 @@
     max-width: 50rem;
     padding: 0 2rem;
     background: transparent;
+    margin: 1rem;
+    text-align: center;
+    position: relative;
 }
 .rows {
+    height: 60vh;
+    background: transparent;
     display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    flex-direction: row;
     justify-content: space-between;
-    flex: row;
+
+   
 }
 
 .project {
-    margin: 1rem;
-    padding: 1.5 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    height: 20rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    transition: 3s cubic-bezier(0.39, 0.575, 0.565, 1);
     box-shadow: 0 0 10px #838174; 
     border: 2.5px solid #bdae60; 
-    margin: 1rem;
     border-radius: 0.5rem;
     background: linear-gradient(135deg, #252525, black);
-}   
+    position: relative; /* Add this for positioning */
+    overflow: hidden;
+    color: #bdae60;
+}
+
+.project h4 {
+    color: lightgray;
+    background: transparent;
+}
+.animation {
+    
+  display: flex;
+  margin: .5rem auto;
+  height: 50vh;
+  width: 100%;
+  
+}
+
+.projectData {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(70, 69, 69, 0.85);
+    transition: height 0.8s ease;
+    overflow: hidden;
+    padding: 20px; 
+}
+
+.project:hover .projectData {
+    height: 100%;
+}
+
+.projectInfo {
+    color: lightgray;
+    background: transparent;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size:small;
+    text-align: center;
+}
+.projectLink {
+    color: lightgray;
+    background: transparent;
+    text-align: center;
+    
+}
+
+.projectLink:hover{
+    color: #bdae60;
+    
+} 

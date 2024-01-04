@@ -16,8 +16,9 @@ const Navbar = () => {
            <img src={logo} alt="Logo" className="logo"/>
            <div className="menu">
                     <Link className="menuListItem">Home</Link>
-                    <Link className="menuListItem">About</Link>
                     <Link className="menuListItem">Projects</Link>
+                    <Link className="menuListItem">Skills</Link>
+                    <Link className="menuListItem">About</Link>
                     <Link className="menuListItem">Social</Link>
             </div>
             <button className="menuBtn"> <img src={contactImg} alt="envelope" className="menuBtnImg" />Contact Me </button>
