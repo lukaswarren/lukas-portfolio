@@ -40,6 +40,7 @@
 }
 .skillBar {
     padding: 1.5 2rem;
+    height: 26vh;
     display: flex;
     box-shadow: 0 0 10px #838174; /* Adding a subtle shadow */
     border: 2.5px solid #bdae60; 
