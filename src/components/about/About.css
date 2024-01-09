@@ -12,12 +12,26 @@
 
 }
 
+
+
 .aboutTitle {
     font-size: 3rem;
     color: lightgray;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
+    background: transparent;
+}
+.aboutContainer{
+    display: flex; /* Use flexbox to control positioning */
+    align-items: center; /* Vertically align content */
+    justify-content: space-between; /* Place content at the ends */
+    height: 60vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
     background: transparent;
 }
 .aboutContent {
@@ -27,13 +41,25 @@
     font-weight: 500;
     color: lightgray;
     background: transparent;
+    margin-right: 6rem;
+}
+
+.aboutPic {
+    object-fit: cover;
+    height: 50vh;
+    width: auto; /* Adding width to ensure responsiveness */
+    border-radius: 15px;
+    box-shadow: 0 0 10px #838174; /* Adding a subtle shadow */
+    border: 2.5px solid #bdae60; 
 }
 
 .aboutPara {
-    font-size:large;
+    font-size:medium;
     font-weight: 100;
     background: transparent;
     display: flex;
     text-align: left;
+    margin-left: 1rem;
     color: lightgray;
+    width: 30rem;
 }
