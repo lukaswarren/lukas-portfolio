@@ -1,0 +1,58 @@
+#social{ 
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 6rem auto;
+    background: transparent;
+   
+
+}
+
+.socialTitle {
+    font-size: 3rem;
+    color: lightgray;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background: transparent;
+}
+
+.social-icons {
+    padding: 3rem 6rem;
+    height: 26vh;
+    display: flex;
+    box-shadow: 0 0 10px #838174; /* Adding a subtle shadow */
+    border: 2.5px solid #bdae60; 
+    margin: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg, #252525, black);
+    width: 55rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}   
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
+    color: #bdae60;
+    background: transparent;
+}
+
+.fab {
+    background: transparent;
+    font-size: 5rem;
+}
+
+.fas {
+    background: transparent;
+    font-size: 5rem;
+}
