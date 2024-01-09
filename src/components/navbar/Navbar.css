@@ -58,6 +58,10 @@
     background: none;
 }
 
+.mailLink {
+    background: transparent;
+}
+
 @media (max-width: 425px) {
     .navbar {
         padding: 1rem; /* Adjust overall padding for smaller screens */

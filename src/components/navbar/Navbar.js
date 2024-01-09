@@ -15,13 +15,13 @@ const Navbar = () => {
         <nav className="navbar">
            <img src={logo} alt="Logo" className="logo"/>
            <div className="menu">
-                    <Link className="menuListItem">Home</Link>
-                    <Link className="menuListItem">Projects</Link>
-                    <Link className="menuListItem">Skills</Link>
-                    <Link className="menuListItem">About</Link>
-                    <Link className="menuListItem">Social</Link>
+                    <Link to="intro" smooth={true} duration={600} offset={-50} className="menuListItem">Home</Link>
+                    <Link to="projects" smooth={true} duration={600} offset={-50} className="menuListItem">Projects</Link>
+                    <Link to="skills" smooth={true} duration={600} offset={-50} className="menuListItem">Skills</Link>
+                    <Link to="about" smooth={true} duration={600} offset={-50} className="menuListItem">About</Link>
+                    <Link to="social" smooth={true} duration={600} offset={-50} className="menuListItem">Social</Link>
             </div>
-            <button className="menuBtn"> <img src={contactImg} alt="envelope" className="menuBtnImg" />Contact Me </button>
+            <a href="mailto:lukaswarren728@gmail.com" target="_blank" className="mailLink"><button className="menuBtn"> <img src={contactImg} alt="envelope" className="menuBtnImg" />Contact Me </button></a>
         </nav>
     )
 }
