@@ -1,6 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import PortfolioGif from "../../assets/portfolio.gif"
+import MovieGif from "../../assets/movieViewer.gif"
+import PythonCalcGif from "../../assets/pythonCalc.gif"
 
 const Projects = () => {
 
@@ -16,7 +18,7 @@ const Projects = () => {
             },
             {
                 id: 2,
-                imgSrc: PortfolioGif,
+                imgSrc: MovieGif,
                 projectInfo: "Mostly this project is a demonstration on what can be picked up and created over a weekend. Prior to this project I had zero experience in these languages. I am not an expert or have extensive experience with Node, Hapi, React. I do have experience with APIs, REST, etc.",
                 link: "https://github.com/lukaswarren/MovieViewer",
                 name: "MovieViewer",
@@ -25,19 +27,12 @@ const Projects = () => {
         [
             {   
                 id: 1,
-                imgSrc: PortfolioGif,
-                projectInfo: "This is a little calculator that uses tokens, a scanner and a binary tree to evalute math expressions. It utilizes grammars and is written in Python",
-                link: "https://github.com/lukaswarren/interpreter",
-                name: "Interpreter"
-            },
-
-            {   
-                id: 1,
-                imgSrc: PortfolioGif,
+                imgSrc: PythonCalcGif,
                 projectInfo: "This is a little calculator that uses tokens, a scanner and a binary tree to evalute math expressions. It utilizes grammars and is written in Python",
                 link: "https://github.com/lukaswarren/interpreter",
                 name: "Interpreter"
             }
+
         ]   
     ];
 
