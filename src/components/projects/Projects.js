@@ -39,7 +39,7 @@ const Projects = () => {
     return (
         <section id='projects'>
             <span className='projectTitle'>Projects</span>
-            <span className='projectDesc'>Here's a few of my personal projects. You can check out the code using the Github link.  You can also run them on a docker container. Feel free to contact me to ask about any of these. If you'd like to see more examples head over to my Github via the social section.</span>
+            <span className='projectDesc'>Here's a few of my personal projects. You can check out the code using the Github link. Feel free to contact me to ask about any of these. If you'd like to see more examples head over to my Github via the social section.</span>
             <div className='rows'>
                     {data[0].map((item, index) => (
                         <div className='project' key={index}>{item.name}

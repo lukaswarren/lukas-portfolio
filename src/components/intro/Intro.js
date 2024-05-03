@@ -1,7 +1,6 @@
 import React from 'react'
 import './Intro.css'
 import profile from '../../assets/profilePic.png'
-import {Link} from 'react-scroll'
 
 export const Intro = () => {
  
@@ -14,7 +13,7 @@ export const Intro = () => {
             <p className="introPara">I am software engineer with 7+ years experience in Backend Development</p>
             <div className='introBtns'>
               <a href="mailto:lukaswarren728@gmail.com" target="_blank" className='introLinks'><button className='hireBtn' >Hire Me</button></a>
-              <a className='introLinks' href='/LukasWarrenResume.pdf' download><button className='hireBtn' >Download My Resume</button></a>
+              <a className='introLinks' href='https://lukaswarren.github.io/portfolio/LukasWarrenResume.pdf' download><button className='hireBtn' >Download My Resume</button></a>
             </div>
         </div>
         <img src={profile} alt='Profile' className="profilePic"/>
